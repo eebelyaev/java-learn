@@ -20,7 +20,7 @@ public class Lesson02 {
     // таймстемпа (миллисикунды с 1970 года) в виде long.
     private static long getStamp(int dayCount) {
         long res = System.currentTimeMillis();
-        res += (long) dayCount * 24 * 60 * 60 * 1000;
+        res += dayCount * 24L * 60 * 60 * 1000;
         return res;
     }
 
