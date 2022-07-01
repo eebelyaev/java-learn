@@ -79,9 +79,6 @@ public class Main {
         int beginIndex = 0;
         int length = array.length;
         int endIndex = length - 1;
-        if (length == 0) {
-            return false;
-        }
         int middleIndex;
         while (length > 0) {
             middleIndex = beginIndex + (length >> 1);
